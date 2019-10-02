@@ -21,10 +21,10 @@ int main (int argc, char *argv[])
   double inputValue = atof(argv[1]);
  
 #ifdef USE_MYMATH
-  frintf(stdout, "Using mysqrt...\n");
+  fprintf(stdout, "Using mysqrt...\n");
   double outputValue = mysqrt(inputValue);
 #else
-  frintf(stdout, "Using math.h/sqrt...\n");
+  fprintf(stdout, "Using math.h/sqrt...\n");
   double outputValue = sqrt(inputValue);
 #endif
  
