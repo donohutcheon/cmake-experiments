@@ -26,3 +26,16 @@ cmake USE_MYMATH .
 ----
 cmake-clean.sh
 ----
+
+
+==== Tutorial Step 3
+
+Step 3 adds installation and unit tests to the make file.
+
+[source,bash]
+----
+cmake USE_MYMATH .
+make
+ctest
+sudo make install
+----
