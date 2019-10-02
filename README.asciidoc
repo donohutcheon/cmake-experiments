@@ -1,10 +1,28 @@
 == README.asciidoc
 
 
+=== Notes
+
+==== Tutorial Step 2
+
+Use math.h:
+
+[source,bash]
+----
+cmake .
+----
+
+Use MathFunctions.h / mysqrt.cxx:
+
+[source,bash]
+----
+cmake USE_MYMATH .
+----
+
+
 === Manually clean out
 
 [source,bash]
 ----
-rm -rf {CMakeCache.txt,CMakeFiles,cmake.check_cache,Makefile,cmake_install.cmake,Tutorial,TutorialConfig.h}
-rm -rf MathFunctions/{CMakeFiles,Makefile,cmake_install.cmake,libMathFunctions.a}
+cmake-clean.sh
 ----
