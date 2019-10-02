@@ -1,0 +1,9 @@
+== README.asciidoc
+
+
+=== Manually clean out
+
+[source,bash]
+----
+rm -rf {CMakeCache.txt,CMakeFiles,cmake.check_cache,Makefile,cmake_install.cmake,Tutorial}
+----
