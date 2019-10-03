@@ -5,3 +5,5 @@ rm -rf MathFunctions/{CMakeFiles,Makefile,cmake_install.cmake,libMathFunctions.a
 #Step3:
 rm -rf {CTestTestfile.cmake,DartConfiguration.tcl,Testing,install_manifest.txt}
 
+rm -rf {bin,lib}
+
